@@ -16,7 +16,7 @@ app.get('/contacts', function (request, response) {
 });
 
 app.post('/process-contacts', urlEncodedParser, function (request, response) {
-    response.end('Thankyou ' + request.body.first_name+ ' ' + request.body.last_name);
+    response.end('Thankyou ' + request.body.first_name+ ' '+ request.body.first_name+' ' + request.body.last_name);
 });
 
 
