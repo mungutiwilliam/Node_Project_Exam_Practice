@@ -1,7 +1,6 @@
 {
   "name": "trial_nodejs_app",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +10,14 @@
   "dependencies": {
     "express": "^4.17.3",
     "hbs": "^4.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mungutiwilliam/Node_Project_Exam_Practice.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mungutiwilliam/Node_Project_Exam_Practice/issues"
+  },
+  "homepage": "https://github.com/mungutiwilliam/Node_Project_Exam_Practice#readme",
+  "description": ""
 }
